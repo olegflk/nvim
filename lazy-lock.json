@@ -9,5 +9,6 @@
   "onedark.nvim": { "branch": "master", "commit": "fae34f7c635797f4bf62fb00e7d0516efa8abe37" },
   "outline.nvim": { "branch": "main", "commit": "6c44527837ff7ac1cd054dc365a721e881020a2e" },
   "plenary.nvim": { "branch": "master", "commit": "2d9b06177a975543726ce5c73fca176cedbffe9d" },
-  "telescope.nvim": { "branch": "master", "commit": "a0bbec21143c7bc5f8bb02e0005fa0b982edc026" }
+  "telescope.nvim": { "branch": "master", "commit": "a0bbec21143c7bc5f8bb02e0005fa0b982edc026" },
+  "toggleterm.nvim": { "branch": "main", "commit": "48be57eaba817f038d61bbf64d2c597f578c0827" }
 }

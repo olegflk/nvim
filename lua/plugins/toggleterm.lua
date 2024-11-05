@@ -2,14 +2,14 @@ return {
   -- amongst your other plugins
   {
 	  'akinsho/toggleterm.nvim',
-	  version i= "*",
+	  version = "*",
 	  config = true,
 
 	  config = function()
 		  require('toggleterm').setup({
 			  open_mapping = [[<c-\>]],
-		  })
-		function _G.set_terminal_keymaps()
+		 })
+		 function _G.set_terminal_keymaps()
   local opts = {buffer = 0}
   vim.keymap.set('t', '<esc>', [[<C-\><C-n>]], opts)
   vim.keymap.set('t', 'jk', [[<C-\><C-n>]], opts)
