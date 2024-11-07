@@ -4,6 +4,7 @@ return{
 		config = function()
 			local lspconfig = require('lspconfig')
 			lspconfig.lua_ls.setup{}
+			require'lspconfig'.pylsp.setup{}
 		end
 	}
-}     
+}
