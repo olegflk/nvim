@@ -7,4 +7,5 @@ return{
 			require'lspconfig'.pylsp.setup{}
 		end
 	}
+
 }
