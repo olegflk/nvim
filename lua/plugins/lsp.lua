@@ -5,6 +5,8 @@ return{
 			local lspconfig = require('lspconfig')
 			lspconfig.lua_ls.setup{}
 			lspconfig.pyright.setup{}
+			local nvim_lsp = require('lspconfig')
+			nvim_lsp.pyright.setup({})
 		end
 	}
 --	,
