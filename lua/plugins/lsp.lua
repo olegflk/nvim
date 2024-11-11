@@ -4,8 +4,11 @@ return{
 		config = function()
 			local lspconfig = require('lspconfig')
 			lspconfig.lua_ls.setup{}
-			require'lspconfig'.pylsp.setup{}
 		end
 	}
+<<<<<<< HEAD
 
 }
+=======
+}     
+>>>>>>> parent of 3d84e49 (подключил Mason)
