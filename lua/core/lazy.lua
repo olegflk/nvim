@@ -19,6 +19,6 @@ require("lazy").setup({
     -- add LazyVim and import its plugins
     { import = "plugins" },
   },
-  checker = { enabled = true },
+  checker = { enabled = true, notify = false }
 })
 
