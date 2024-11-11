@@ -6,9 +6,4 @@ return{
 			lspconfig.lua_ls.setup{}
 		end
 	}
-<<<<<<< HEAD
-
 }
-=======
-}     
->>>>>>> parent of 3d84e49 (подключил Mason)
