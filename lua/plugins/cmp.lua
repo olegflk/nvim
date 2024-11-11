@@ -39,7 +39,7 @@ return{
 			  cmp.select_prev_item()
 		  else
 			  fallback()
-		  end 
+		  end
 	  end, {"i", "s"})
     }),
     sources = cmp.config.sources({
@@ -52,7 +52,7 @@ return{
       { name = 'buffer' },
     })
   })
-end	
+end
 }
 }
 
